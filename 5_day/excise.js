@@ -1,4 +1,5 @@
-// =============exercise: level 1================
+'use strict'
+// ARRAYS=============exercise: level 1================
 const countries = [
   'Albania',
   'Bolivia',
@@ -48,7 +49,7 @@ const itCompanies = [
   'Amazon'
 ]
 // ========== 7 ============.
-// console.log (itCompanies)  
+console.log (itCompanies)  
 // ======== 8  ==========
 // console.log (itCompanies.length)  //7
 //  =======9  =======
@@ -56,7 +57,14 @@ const itCompanies = [
 // console.log (itCompanies [3])  //Apple
 // console.log (itCompanies [6])  //Amazon
 //  ===== 10.========
-// console.log (itCompanies [1]) //google
+console.log (itCompanies [0]) //google
+console.log (itCompanies [1])
+console.log (itCompanies [2])
+console.log (itCompanies [3])
+console.log (itCompanies [4])
+console.log (itCompanies [5])
+console.log (itCompanies [6])
+
 // ========11. =======
 // let firstIndex = itCompanies [0]
 // console.log (itCompanies [0])  //Facebook
@@ -113,6 +121,6 @@ const itCompanies = [
 // ======== 22 ==============
 
 // =========== 23 -==========
-console.log (itCompanies.splice ())
+// console.log (itCompanies.splice ())
 
 

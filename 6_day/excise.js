@@ -1,4 +1,5 @@
-//  Day 6
+'use strict'
+//  LOOP  Day 6
 
 // Exercises; Level 1
 
@@ -110,6 +111,33 @@ const webTechs = [
 //   console. log (i)
 // }
 
+// for (let i = 0; i <=10; i++) {
+//   let primeNumber = true;
+//   for (let i = 2; i <= i/2; i ++)  
+  
+// }
+
+// function isPrime (num) {
+//   if (num < 2) return false;
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0)
+//     return false;
+//   }
+//   return true;
+// }
+// for (let i = 0; i < 100; i++) {
+//   if (isPrime(i)) console.log (i);
+// }
+
+// for (let i=1; i<=100; i++) {
+//   let count = 0
+//   for (let x = 1; x <= 100; x++)
+//       {if ( i % x == 0)
+//       (count++)}
+//       if (count === 2)
+//       console.log (`${i} is a prime number`)
+// }
+
 
 //  ======= 10 ===========
 
@@ -123,8 +151,7 @@ const webTechs = [
 //  ======== 11 ==========
 // const numbers = 100
 // let sum = 0
-// for (let i = 1; i <= numbers; i++) {
-//   if ( i % 2 == 0);
+// for (let i = 1; i <= numbers; i + 2) {
 //   sum += i
   
 //   console.log (sum)
