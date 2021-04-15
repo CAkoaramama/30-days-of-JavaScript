@@ -149,10 +149,93 @@ const webTechs = [
 // console.log (sum)
 
 //  ======== 11 ==========
-// const numbers = 100
-// let sum = 0
-// for (let i = 1; i <= numbers; i + 2) {
-//   sum += i
+// Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+// let sumEven = 0
+// for (let i = 0; i <= 100; i = i + 2){
+//   sumEven += i
+// }
+// console.log (sumEven)  //2550
+
+// let sumOdd = 0
+// for (let i = 1; i <=100; i = i + 2) {
+//   sumOdd += i
+// }
+// console.log (sumOdd)  //2500
+
+// console.log (sum)
+
+//  ======= 12 ========
+// Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. Print sum of evens and sum of odds as array
+
+// let sumEven = 0
+// for (let i = 0; i <= 100; i = i + 2) {
+//   sumEven += i
+// }
+// // console.log (sum)
+
+// let sumOdd = 0
+// for (let i = 1; i <= 100; i = i + 2) {
+//   sumOdd += i
+// }
+// const SumOfOddAndEven = [sumOdd, sumEven]
+// console.log (SumOfOddAndEven)
+// [2550, 2500]
+
+
+/* Rauf did this way
+
+let sumArr = [];
+let sumEven = 0;
+for (let i = 0; i <= 100; i = i + 2) {
+  sumEven += i;
+}
+let sumOdd = 0;
+for (let i = 1; i <= 100; i = i + 2) {
+  sumOdd += i;
+}
+sumArr.push(sumOdd, sumEven);
+console.log(sumArr);
+*/
+
+
+// ======= 13 ========
+  // Develop a small script which generate array of 5 random numbers
+
+// const generateFiveNumbers = (n = 10) => {
+//   const nums = []
+//   for (let i = 0; i < n; i++)
+//   nums.push (Math.floor(Math.random() * 11))
+//   return nums
+// }
+// console.log (generateFiveNumbers (5))
+
+// ======== 14========== ???
   
-//   console.log (sum)
+  // Develop a small script which generate array of 5 random numbers and the numbers must be unique
+
+  const uniqueNums = (n = 10) => {
+    const nums = [ ]
+    for (let i = 0; i < n; i++)
+    nums.push (Math.floor(Math.random() * (n + 1)))
+    return nums
+  }
+  console.log (uniqueNums (5))
+  
+//  ======== 15 ========== ????
+  // Develop a small script which generate a six characters random id:
+// const generateSixUniqueId () {
+
+// const generateId = (n = 6) => {
+  
+//   const text = [ ]
+//   const a = CharacterData
+
+//   for (let a = 0; a < n; a ++)
+//   text.push (toString.random(6))
+//   return text
+// }
+// console.log (generateId (6))
+
+
+//   for (let i = )
 // }
